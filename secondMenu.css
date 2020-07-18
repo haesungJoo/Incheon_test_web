@@ -1,0 +1,34 @@
+#secondMenu{
+    height: 100px;
+    width: 1000px;
+    margin-bottom: 50px;
+}
+#secondMenu ul li{
+    list-style: none;
+    color: #4d4d4d;
+    line-height: 80px;
+    vertical-align: middle;
+    float: left;
+    text-align: center;
+}
+#secondMenu .menuLink1{
+    text-decoration: none;
+    display: block;
+    width: 100px;
+}
+#secondMenu .menuLink2{
+    display: block;
+    width: 250px;
+    margin-right: 100px;
+    padding-top: 15px;
+}
+#secondMenu .menuLink1:hover{
+    color:black;
+
+}
+#secondMenu .menuLink3{
+    text-decoration: none;
+    display: block;
+    width: 280px;
+    padding-top: 15px;
+}

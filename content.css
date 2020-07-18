@@ -1,0 +1,27 @@
+#content_menu{
+    display:grid;
+    width: 1000px;
+    height: 230px;
+    grid-template-areas: "one one two three";
+    grid-template-columns: 170px 270px 242px 243px;
+    grid-template-rows: 230px;
+    grid-gap: 5px;
+    margin-left: 38px;
+}
+#content_menu > one {
+    grid-area: one;
+    border-top: cadetblue 2px solid;
+    border-bottom: cadetblue 2px solid;
+    
+}
+#content_menu > two {
+    grid-area: two;
+    border-top: yellowgreen 2px solid;
+    border-bottom: yellowgreen 2px solid;
+}
+#content_menu > three {
+    grid-area: three;
+    border-top: yellowgreen 2px solid;
+    border-bottom: yellowgreen 2px solid;
+}
+

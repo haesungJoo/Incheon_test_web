@@ -1,0 +1,58 @@
+#topMenu{
+    height: 30px;
+    width: 1000px;
+}
+#topMenu ul li{
+    list-style: none;
+    color: white;
+    background-color: #1c1cd4;
+    float: left;
+    line-height: 30px;
+    vertical-align: middle;
+    text-align: center;
+}
+#topMenu .menuLink1{
+    text-decoration: none;
+    color: blue;
+    display: block;
+    background-color: yellowgreen;
+    width: 100px;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: "Trebuchet MS", Dotum, Arial;
+}
+#topMenu .menuLink2{
+    text-decoration: none;
+    color: white;
+    display: block;
+    margin-right: 250px;
+    width: 100px;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: "Trebuchet MS", Dotum, Arial;
+}
+#topMenu .menuLink3{
+    text-decoration: none;
+    color: white;
+    display: block;
+    margin: 0px;
+    margin-left: 250px;
+    width: auto;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: "Trebuchet MS", Dotum, Arial;
+}
+#topMenu .menuLink4{
+    text-decoration: none;
+    background-color: rgb(3, 3, 107);
+    color: white;
+    display: block;
+    width: 100px;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: "Trebuchet MS", Dotum, Arial;
+}
+#topMenu .menuLink1:hover, .menuLink2:hover, .menuLink4:hover{
+    color: yellow;
+    background-color: #4d4d4d;
+}
