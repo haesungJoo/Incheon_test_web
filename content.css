@@ -2,9 +2,12 @@
     display:grid;
     width: 1000px;
     height: 230px;
-    grid-template-areas: "one one two three";
-    grid-template-columns: 170px 270px 242px 243px;
-    grid-template-rows: 230px;
+    grid-template-areas: "one one two three"
+                         "four five five six"
+                         "seven eight eight six"
+                         "seven nine nine ten";
+    grid-template-columns: 210px 230px 242px 243px;
+    grid-template-rows: 230px 240px 240px 240px 10px;
     grid-gap: 5px;
     margin-left: 38px;
 }
@@ -24,4 +27,40 @@
     border-top: yellowgreen 2px solid;
     border-bottom: yellowgreen 2px solid;
 }
+
+#content_menu > four {
+    grid-area: four;
+    color: white;
+    background-color: blue;
+    
+}
+#content_menu > five{
+    grid-area: five;
+    border: 2px solid black;
+}
+#content_menu > six {
+    grid-area: six;
+    border: 2px solid black;
+}
+
+#content_menu > seven {
+    grid-area: seven;
+    border: 2px solid black;
+    
+}
+#content_menu > eight{
+    grid-area: eight;
+    border: 2px solid black;
+}
+#content_menu > nine {
+    grid-area: nine;
+    border: 2px solid black;
+}
+
+#content_menu > ten {
+    grid-area: ten;
+    border: 2px solid black;
+    
+}
+
 
